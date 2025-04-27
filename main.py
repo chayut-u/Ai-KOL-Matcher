@@ -32,7 +32,6 @@ with st.form(key="input_form"):
     submitted = st.form_submit_button("🔍 Analyze and Match")
 
 # Backend Logic
-@st.cache_data
 def run_kol_matching_logic(website, facebook):
     progress_text.write("🔍 กำลังวิเคราะห์ข้อมูลจาก Website / Facebook ...")
     facebook_result, web_result = customer.extract_content_from_link(
