@@ -44,21 +44,16 @@ CHATGPT_TOKEN=your_openai_project_token
 ---
 
 ### 4. Run the application
-If it is a console app:
-```bash
-python app.py
-```
-
 If it is a Streamlit app:
 ```bash
-streamlit run app.py
+streamlit run main.py
 ```
 
 ---
 
 ## 📈 Output
 - The tool will generate a list of **relevant TikTok profile links**.
-- Results will be displayed in the console or a web UI (Streamlit).
+- Results will be displayed in the web UI (Streamlit).
 
 ---
 
